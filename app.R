@@ -38,7 +38,6 @@ fruit_types <- c(
   "oil palm fruit", "other beans, green", "other fruits"
 )
 
-
 # clean data to match different fruit type
 fruit_data <- product_data %>%
   filter(grepl("fruit|apple|banana|cherry|cocoa", Item)) %>%
