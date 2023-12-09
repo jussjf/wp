@@ -236,6 +236,7 @@ type_tab <- tabPanel(
 
 ############## Guide Tab ####################
 # Summary subtab
+
 guide_summary = tabPanel(
   "Summary",
   h2(HTML("<b>Summary</b>"), style = "text-align:center"),
